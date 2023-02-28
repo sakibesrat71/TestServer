@@ -1,7 +1,7 @@
 
-# Blog API
+# Test Server API
 
-Basic APIs for a simple Blog site.
+Basic APIs for a CRUD operations.
 
 
 
@@ -10,17 +10,17 @@ Basic APIs for a simple Blog site.
 
 [UserFunctions](https://documenter.getpostman.com/view/17979225/UyxbppQ7)
 
-[BlogSearching](https://documenter.getpostman.com/view/17979225/UyxbppQE)
+[__Searching](https://documenter.getpostman.com/view/17979225/UyxbppQE)
 
-[BlogPosting](https://documenter.getpostman.com/view/17979225/UyxbppQF)
+[__Posting](https://documenter.getpostman.com/view/17979225/UyxbppQF)
 
-[BlogManipulation](https://documenter.getpostman.com/view/17979225/UyxbppUY)
+[__Manipulation](https://documenter.getpostman.com/view/17979225/UyxbppUY)
 
 [Auth](https://documenter.getpostman.com/view/17979225/UyxbppUZ)
 
 [Search](https://documenter.getpostman.com/view/17979225/UyxdLpec)
 
-[Moderator](https://documenter.getpostman.com/view/17979225/UyxeqUy7)
+[__UserRoles](https://documenter.getpostman.com/view/17979225/UyxeqUy7)
 
 
 
@@ -74,15 +74,15 @@ To run this project, you will need to add the following environment variables to
 ## API Features
 
 - Authentication using JWT token
-- Posting a blog
-- CRUD operation of blog
-- Reviewing a blog
-- Reacting on a blog
+- Posting a post
+- CRUD operation of post
+- Reviewing a post
+- Reacting on a post
 - Reporting a Reviewing
 - Reacting on a review
-- Searching blog by title
+- Searching post by title
 - Getting specific set of blog by various parameters like, getting the blog of a particualr author
-- Retrieving Blog comments
+- Retrieving post comments
 - Deleting a review 
 - Rating a user and a convinent rating method. 
 - Moderator user role. Moderator can edit content of blogs
